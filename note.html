@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-note.css">
+    <script src="script-note.js" defer></script>
+    <title>Add your name</title>
+</head>
+<body>
+    <div class="card">
+        <div class="imgBx">
+            <img src="./assets/cover.png" alt="cover">
+            <img src="./assets/rules.jpg" alt="cover">
+        </div>
+        <div class="content">
+            <h3></h3>
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <h2>Hover over the notebook to add your name to the note.</h2>
+</body>
+</html>
